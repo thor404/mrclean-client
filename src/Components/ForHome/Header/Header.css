@@ -1,0 +1,123 @@
+
+.header-main-area{
+    background-color: #DFDBE5;
+    background-image: url("https://images.pexels.com/photos/434163/pexels-photo-434163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.overly{
+    /* background-color: rgba(255, 255, 255, 0.863); */
+    padding: 50px 0;
+    margin-top: 5px;
+}
+
+.header-main-flex{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.header-info{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.header-hero-img img{
+    width: 80%;
+}
+
+.header-info h6{
+    margin: 0;
+    text-transform: uppercase;
+    color: #1ABC9C;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.header-info h1{
+    margin: 0;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* background-color: #1ABC9C; */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.header-info h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    color: #1ABC9C;
+}
+.header-info p{
+    font-size: 14px;
+    color: #1ABC9C;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding: 12px 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.style{
+    background-color: #1ABC9C;
+    color: #fff;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 992px ){
+    .header-main-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-info{width: 100%; margin-top: 50px;}
+    .header-hero-img{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 768px ){
+
+}
+@media screen and (max-width: 576px ){
+    .header-info h6{
+        font-size: 12px;
+    }
+    .header-info h1{
+        font-size: 30px;
+    }
+    .header-info h2{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .header-info p{
+        font-size: 10px;
+        line-height: normal;
+        
+    }
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 992px ){
+    
+}
+@media screen and (max-width: 768px ){
+
+}
+@media screen and (max-width: 576px ){
+
+} */

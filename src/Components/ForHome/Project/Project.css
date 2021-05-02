@@ -1,0 +1,30 @@
+
+.-flex{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.-flex h6{
+    margin: 0;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.-flex .-icon{
+    font-size: 20px;
+}
+
+.img-flex-pr{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img-flex-pr img{
+    width: 50px !important;
+    margin-top: 9px;
+}
+
+.bg-add{
+    padding: 0 !important;
+    background-color: #F8F9F9;
+}
